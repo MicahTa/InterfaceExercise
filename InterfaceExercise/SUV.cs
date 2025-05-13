@@ -3,15 +3,15 @@ using System;
 namespace InterfaceExercise
 {
     public class SUV : ICompany, IVehicle  {
-        public int netWorth { get; set; }
-        public int numberOfEmployees { get; set; }
+        public int NetWorth { get; set; }
+        public int NumberOfEmployees { get; set; }
 
-        public double weight { get; set; }
-        public int maxSpeed { get; set; }
-        public int milesPerGallon { get; set; }
-        public int averagePrice { get; set; }
+        public double Weight { get; set; }
+        public int MaxSpeed { get; set; }
+        public int MilesPerGallon { get; set; }
+        public int AveragePrice { get; set; }
 
-        public bool presidential { get; set; }
-        public bool hasTurrets { get; set; }
+        public bool Presidential { get; set; }
+        public bool HasTurrets { get; set; }
     }
 }
